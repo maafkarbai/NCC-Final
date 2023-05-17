@@ -9,12 +9,23 @@
   </head>
   <body>
     <header>
-      <nav class="flex-container px-16 py-4">
+      <nav
+        class="flex-container px-16 py-1 fixed flex-justify-between flex-align-center overflow-hidden"
+      >
         <a href="#"><img src="Images/LOGO.png" class="w-3" alt="LOGO" /></a>
+        <ul class="flex-container gap navlist" role="list">
+          <li><a href="#" class="navlink">Link</a></li>
+          <li><a href="#" class="navlink">Link</a></li>
+          <li><a href="#" class="navlink">Link</a></li>
+          <li><a href="#" class="navlink">Link</a></li>
+        </ul>
+        <div class="p-1 searchbar">
+          <input type="text" placeholder="Search" />
+        </div>
       </nav>
     </header>
     <section class="slider">
-      <div class="carousel" data-carousel>
+      <div class="carousel absolute" data-carousel>
         <button class="carousel-button prev" data-carousel-button="prev">
           &larr;
         </button>
@@ -26,12 +37,19 @@
             <img src="Images/Backgrounds/Camp.png" alt="" />
           </li>
           <li class="slide">
-            <img src="Images/LOGO.png" alt="" />
+            <img
+              src="Images/Backgrounds/pexels-jens-mahnke-776117.jpg"
+              alt=""
+            />
           </li>
           <li class="slide">
-            <img src="Images/Backgrounds/Camp.png" alt="" />
+            <img
+              src="Images/Backgrounds/pexels-baihaki-hine-4314207.jpg"
+              alt=""
+            />
           </li>
         </ul>
+
         <script src="Javascript/carousel.js"></script>
       </div>
     </section>
