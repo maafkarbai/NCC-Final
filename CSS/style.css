@@ -825,8 +825,16 @@ select {
   font-size: 3rem;
 }
 
+.fxl-large-text {
+  font-size: 5rem;
+}
+
 .text-none {
   text-decoration: none;
+}
+
+.rounded-full {
+  border-radius: 100%;
 }
 
 .text-underline {
@@ -835,13 +843,17 @@ select {
   offset: 1rem;
 }
 
+/* Text Utility Classes End */
+
 /* Border Start */
 .border {
   border: solid black 0.3rem;
 }
 /* Border End */
 
-/* Text Utility Classes End */
+.bg-blurry {
+  background: rgba(0, 0, 0, 0.2);
+}
 
 .carousel {
   width: 100vw;
@@ -981,6 +993,11 @@ overflow-hidden {
   transition: all 2ms ease-in-out;
 }
 
+.category:hover {
+  scale: 110%;
+  transition: all 9ms ease-in-out;
+}
+
 .searchbar > button:hover {
   transition: ease-in-out 2ms;
   scale: 110%;
@@ -1042,4 +1059,8 @@ overflow-hidden {
   grid-template-areas:
     ". . . ."
     ". . . .";
+}
+
+.text-white {
+  color: white;
 }
